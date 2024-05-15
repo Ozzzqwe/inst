@@ -1,0 +1,99 @@
+body{  
+    margin: 0;  
+    font-family: Arial; 
+}  
+#comments{  
+    font-size: 25px; 
+} 
+.send{ 
+    position: relative;  
+    top: 40px; 
+    left: -55px; 
+}
+.sendimg{
+    height: 32px;
+    width: 32px;
+} 
+#comment{ 
+    position: relative; 
+    top: 30px; 
+    font-size: 20px; 
+    border-radius: 20px; 
+    padding: 10px; 
+    padding-right: 50px; 
+} 
+ 
+.img{ 
+    border-radius: 5px; 
+    position: relative; 
+    top: 5px; 
+    width: 100%; 
+} 
+.nav{ 
+    background-color:#F0F5F9;
+    align-items: center;
+    z-index: 1; 
+    position: fixed; 
+    width: 100%; 
+    height: 150px; 
+} 
+.logo{  
+    position: relative; 
+    margin-left: -500px; 
+    color: #1E2022;
+    width: 350px;
+    height: 107px;
+} 
+.options{
+    font-size: 50px;
+    margin-left: 200px;
+    text-decoration: none;
+    font-family: Trebuchet, Arial, sans-serif;
+    color: #1E2022;
+} 
+nav{  
+    height: 60px;  
+    display: flex;  
+    align-items: center;  
+    border-bottom: 1px solid #52616B;  
+    padding: 0 20%;  
+}  
+#posts{  
+    position: relative;  
+    display: flex;  
+    justify-content: center; 
+    padding-top: 70px;
+    background-color: #1E2022;   
+}  
+#postsBox{  
+    width: 38%;  
+}    
+.post{  
+    font-size: 30px;  
+    border: 1px solid #52616B;  
+    padding: 50px;  
+    margin: 30px;
+    background-color: #C9D6DF;
+    border-radius: 10px;
+
+}  
+.avatarka{  
+    height: 60px;  
+    width: 60px;  
+    border-radius: 100%;  
+    margin-right: 20px;  
+}  
+.avaBox{  
+    display: flex;  
+    align-items: center;  
+}  
+.likes{  
+    display: flex;  
+    align-items: center;  
+}  
+.like{  
+    margin-right: 10px;  
+    height: 25px;
+    width: 25px;
+}
+
